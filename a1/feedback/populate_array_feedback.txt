@@ -1,0 +1,25 @@
+..FF.
+======================================================================
+FAIL: test_out_bounds_max (__main__.TestCountLarge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '410065407\n' != ''
+- 410065407
+
+
+======================================================================
+FAIL: test_out_bounds_min (__main__.TestCountLarge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '-69129195299999999\n' != ''
+- -69129195299999999
+
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.281s
+
+FAILED (failures=2)

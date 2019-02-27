@@ -1,0 +1,35 @@
+.FFF
+======================================================================
+FAIL: test_treegen_in_proc_multiple_children_multiple_grandchildren (__main__.TestTreeGenerationProc)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '/proc/28104/exe\n0' != '1'
++ 1- /proc/28104/exe
+- 0
+
+======================================================================
+FAIL: test_treegen_in_proc_no_children (__main__.TestTreeGenerationProc)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '/proc/28102/exe\n0' != '1'
++ 1- /proc/28102/exe
+- 0
+
+======================================================================
+FAIL: test_treegen_in_proc_one_child (__main__.TestTreeGenerationProc)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a2/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '/proc/28103/exe\n0' != '1'
++ 1- /proc/28103/exe
+- 0
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.444s
+
+FAILED (failures=3)

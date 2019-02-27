@@ -1,0 +1,182 @@
+F.FFFFFFFFFF
+======================================================================
+FAIL: test_print_empty_name (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '29531\n'
++ 29531
+
+
+======================================================================
+FAIL: test_print_treeheight1_depth0 (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '27469: bash\n'
++ 27469: bash
+
+
+======================================================================
+FAIL: test_print_treeheight1_depth1 (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '27469: bash\n'
++ 27469: bash
+
+
+======================================================================
+FAIL: test_print_treeheight2_depth0 (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '27468: sshd\n  27469: bash\n'
++ 27468: sshd
++   27469: bash
+
+
+======================================================================
+FAIL: test_print_treeheight2_depth1 (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '27468: sshd\n'
++ 27468: sshd
+
+
+======================================================================
+FAIL: test_print_treeheightN_depth0_branch (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '1123: sshd\n  27395: sshd\n    27468: ssh[339 chars]sh\n'
++ 1123: sshd
++   27395: sshd
++     27468: sshd
++       27469: bash
++   29462: sshd
++     29498: sshd
++       29531: bash
++   29499: sshd
++     29529: sshd
++       29530: sftp-server
++   29874: sshd
++     29912: sshd
++       29913: bash
++   30932: sshd
++     30962: sshd
++       30963: sftp-server
++       30964: sftp-server
++       30965: sftp-server
++   31511: sshd
++     31547: sshd
++       31548: bash
+
+
+======================================================================
+FAIL: test_print_treeheightN_depth0_one_path (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '29874: sshd\n  29912: sshd\n    29913: bash\n'
++ 29874: sshd
++   29912: sshd
++     29913: bash
+
+
+======================================================================
+FAIL: test_print_treeheightN_depthN_branch (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '1123: sshd\n  27395: sshd\n    27468: ssh[339 chars]sh\n'
++ 1123: sshd
++   27395: sshd
++     27468: sshd
++       27469: bash
++   29462: sshd
++     29498: sshd
++       29531: bash
++   29499: sshd
++     29529: sshd
++       29530: sftp-server
++   29874: sshd
++     29912: sshd
++       29913: bash
++   30932: sshd
++     30962: sshd
++       30963: sftp-server
++       30964: sftp-server
++       30965: sftp-server
++   31511: sshd
++     31547: sshd
++       31548: bash
+
+
+======================================================================
+FAIL: test_print_treeheightN_depthN_one_path (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '29874: sshd\n  29912: sshd\n    29913: bash\n'
++ 29874: sshd
++   29912: sshd
++     29913: bash
+
+
+======================================================================
+FAIL: test_print_treeheightN_depthNplusOne_branch (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '1123: sshd\n  27395: sshd\n    27468: ssh[339 chars]sh\n'
++ 1123: sshd
++   27395: sshd
++     27468: sshd
++       27469: bash
++   29462: sshd
++     29498: sshd
++       29531: bash
++   29499: sshd
++     29529: sshd
++       29530: sftp-server
++   29874: sshd
++     29912: sshd
++       29913: bash
++   30932: sshd
++     30962: sshd
++       30963: sftp-server
++       30964: sftp-server
++       30965: sftp-server
++   31511: sshd
++     31547: sshd
++       31548: bash
+
+
+======================================================================
+FAIL: test_print_treeheightN_depthNplusOne_one_path (__main__.TestCommandline)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/stud/cslec/209/marking/grading/a1/marking_scripts/test_helpers.py", line 190, in _t
+    self.assertEqual(stdout, expected_stdout)
+AssertionError: '' != '29874: sshd\n  29912: sshd\n    29913: bash\n'
++ 29874: sshd
++   29912: sshd
++     29913: bash
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.467s
+
+FAILED (failures=11)
