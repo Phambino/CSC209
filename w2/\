@@ -1,0 +1,34 @@
+#!/bin/bash
+
+for d in w1 w2 w3 w4 w5 w6 w7 w8 w9 w10 w11 a1 a2 a3 a4; do
+
+if [ -d "../$d" ]; then
+	if [ -f "../$d/feedback.txt" ]; then
+		
+		grade=`tail -n1  "../$d/feedback.txt" | tr -d [:blank:]`
+
+
+		IFS='/' read -ra grArray <<< "$grade"
+		score=${grArray[0]}
+		max=${grArray[1]}
+
+		echo $score
+		echo $max
+
+	else
+
+	declare -i y=1
+	echo $y
+
+	fi 
+
+else
+
+declare -i x=0
+
+echo $x
+
+fi
+
+done
+

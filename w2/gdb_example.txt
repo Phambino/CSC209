@@ -1,0 +1,104 @@
+Script started on Thu 18 Jan 2018 11:06:31 PM EST
+phamdav7@dh2020pc03:~/209/w2$ gdb overflow
+GNU gdb (Ubuntu 7.11.1-0ubuntu1~16.5) 7.11.1
+Copyright (C) 2016 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+<http://www.gnu.org/software/gdb/documentation/>.
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from overflow...done.
+(gdb) break main
+Breakpoint 1 at 0x40062e: file overflow.c, line 6.
+(gdb) run
+Starting program: /student/phamdav7/209/w2/overflow 
+
+Breakpoint 1, main () at overflow.c:6
+6	int main() {
+(gdb) display
+(gdb) next
+7	    int index = 0;
+(gdb) 
+9	    int before[SIZE] = {10, 10, 10, 10};
+(gdb) 
+10	    int a[SIZE] = {0, 0, 0, 0};
+(gdb) 
+11	    int after[SIZE] = {10, 10, 10, 10};
+(gdb) 
+13	    printf("Address of the variables:\n");
+(gdb) 
+Address of the variables:
+14	    for (index = 0; index < SIZE; index++) {
+(gdb) lost[K[K[Kist
+9	    int before[SIZE] = {10, 10, 10, 10};
+10	    int a[SIZE] = {0, 0, 0, 0};
+11	    int after[SIZE] = {10, 10, 10, 10};
+12	
+13	    printf("Address of the variables:\n");
+14	    for (index = 0; index < SIZE; index++) {
+15	        printf("%lx -> &after[%d]\n", (unsigned long) &after[index], index);
+16	    }
+17	    for (index = 0; index < SIZE; index++) {
+18	        printf("%lx -> &a[%d]\n", (unsigned long) &a[index], index);
+(gdb) 
+19	    }
+20	    for (index = 0; index < SIZE; index++) {
+21	        printf("%lx -> &before[%d]\n", (unsigned long) &before[index], index);
+22	    }
+23	    printf("%lx -> &i\n", (unsigned long)&i);
+24	    printf("%lx -> &index\n", (unsigned long)&index);
+25	    printf("\n");
+26	
+27	
+28	    printf("Initial values:\n");
+(gdb) 
+29	    printf("i = %d\n", i);
+30	    printf("before = {%d, %d, %d, %d}\n", before[0], before[1], before[2], before[3]);
+31	    printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+32	    printf("after = {%d, %d, %d, %d}\n", after[0], after[1], after[2], after[3]);
+33	    printf("\n");
+34	
+35	
+36	    for (i = 0; i < OVERFLOW; i++) {
+37	        a[i] = i * 10;
+38	        printf("i = %d\n", i);
+(gdb) 
+39	        printf("before = {%d, %d, %d, %d}\n", before[0], before[1], before[2], before[3]);
+40	        printf("a = {%d, %d, %d, %d}\n", a[0], a[1], a[2], a[3]);
+41	        printf("after = {%d, %d, %d, %d}\n", after[0], after[1], after[2], after[3]);
+42	    }
+43	
+44	    return 0;
+45	}
+(gdb) print &(after[0])
+$1 = (int *) 0x7fffffffea00
+(gdb) n[Kquit
+A debugging session is active.
+
+	Inferior 1 [process 21750] will be killed.
+
+Quit anyway? (y or n) y[Kn
+Not confirmed.
+(gdb) k[Klist
+Line number 46 out of range; overflow.c has 45 lines.
+(gdb) 
+Line number 46 out of range; overflow.c has 45 lines.
+(gdb) listquitprint &(after[0])[C[C[C[C[C[Clist[Knextlistprint &(after[0])
+$2 = (int *) 0x7fffffffea00
+(gdb) quit
+A debugging session is active.
+
+	Inferior 1 [process 21750] will be killed.
+
+Quit anyway? (y or n) y
+phamdav7@dh2020pc03:~/209/w2$ exit
+exit
+
+Script done on Thu 18 Jan 2018 11:08:55 PM EST

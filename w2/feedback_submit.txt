@@ -1,0 +1,6 @@
+script displays '- / -' when all directories and files present
+output received:  a1: -/- a2: -/- a3: -/- a4: -/- w1: -/- w2: -/- w3: -/- w4: -/- w5: -/- w6: -/- w7: -/- w8: -/- w9: -/- w10: -/- w11: -/- Assignment Total: - / - Lab Total: - / -
+output incorrect when some directories or files missing
+output received:  a1: -/- a2: -/- a3: -/- a4: -/- w1: -/- w2: -/- w3: -/- w4: -/- w5: -/- w6: -/- w7: -/- w8: -/- w9: -/- w10: -/- w11: -/- Assignment Total: - / - Lab Total: - / -
+gdb_example either did not run gdb, set a break point, or use continue
+0 / 3

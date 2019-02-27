@@ -1,0 +1,25 @@
+ll_sum.c did not produce correct output.
+Expected:
+	The sum of the inputs is 19.
+Received:
+	
+running valgrind on ll_sum.c produced errors.
+running valgrind on ll_sum.c showed a memory leak.
+strip.c program does not provide correct output
+Expected:
+	Hello? World 3
+Received:
+	Hello? World 3
+Expected:
+	What.. 1
+Received:
+	What..? 0
+Expected:
+	Apples?.. 1
+Received:
+	Apples?.. 1
+Expected:
+	Coffee 0
+Received:
+	Coffee 0
+1 / 3

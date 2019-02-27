@@ -1,0 +1,14 @@
+===== Question 1 =====
+Line 11 and line 23 are printed more than once.
+===== Question 2 =====
+ABDEBCE, ABCEBDE, ABBCDEE, ABCBDEE, ABDBCEE, ABBDCEE, ABCBEDE, ABDBECE, ABBCEDE, ABBDECE
+Total orderings = 10
+===== Question 3 =====
+16 processes
+===== Question 4 =====
+3761 -> 5443 -> 5444
+3761 -> 5443 -> 5445
+2037 -> 5448
+2037 -> 5446 -> 5450
+2037 -> 5447
+2037 -> 5449
