@@ -1,0 +1,23 @@
+FF
+======================================================================
+FAIL: test_command_not_found (__main__.TestClient)
+Client should print Command not found when given an incorrect command without network newline.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "client_commands_test.py", line 30, in test_command_not_found
+    self.assertIn('Command not found', stdoutput)
+AssertionError: 'Command not found' not found in ''
+
+======================================================================
+FAIL: test_exit_command (__main__.TestClient)
+Client should terminate safely on exit command.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "client_commands_test.py", line 47, in test_exit_command
+    self.assertEqual(0, status)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.006s
+
+FAILED (failures=2)

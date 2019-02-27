@@ -1,0 +1,41 @@
+FFFF
+======================================================================
+FAIL: test_server_accepts_ctrl_c (__main__.TestServer)
+Server terminates cleanly (killing jobs and closing sockets) when ctrl-C is received.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "server_test.py", line 47, in test_server_accepts_ctrl_c
+    self.assertIn("[SERVER] Shutting down", stdoutput)
+AssertionError: '[SERVER] Shutting down' not found in ''
+
+======================================================================
+FAIL: test_server_buffers_commands (__main__.TestServer)
+Client sends fragments of commands that should be pieced together. Requires "jobs" support.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "server_test.py", line 37, in test_server_buffers_commands
+    self.assertIn('[SERVER] No currently running jobs', stdoutput)
+AssertionError: '[SERVER] No currently running jobs' not found in ''
+
+======================================================================
+FAIL: test_server_recognizes_invalid_command (__main__.TestServer)
+Send the server a mis-formatted command from a client. Verify that it responds with "Invalid command: %s"
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "server_test.py", line 21, in test_server_recognizes_invalid_command
+    self.assertIn('[SERVER] Invalid command: jobsZ', stdoutput)
+AssertionError: '[SERVER] Invalid command: jobsZ' not found in ''
+
+======================================================================
+FAIL: test_server_response_includes_network_newline (__main__.TestServer)
+Verify that the response sent has a network newline
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "server_test.py", line 29, in test_server_response_includes_network_newline
+    self.assertIn('Network newline detected', stdoutput)
+AssertionError: 'Network newline detected' not found in ''
+
+----------------------------------------------------------------------
+Ran 4 tests in 6.038s
+
+FAILED (failures=4)

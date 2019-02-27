@@ -1,0 +1,94 @@
+FFFFFFFFFE
+======================================================================
+ERROR: tearDownClass (__main__.SieveDesignTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/peters43/209_18S/admin/grading/a3/marking_scripts/test_helpers.py", line 126, in tearDownClass
+    print(str(cls.amount - len(cls.errors) - len(cls.failures)))
+AttributeError: type object 'SieveDesignTest' has no attribute 'amount'
+
+======================================================================
+FAIL: test_all_pipes_are_closed (__main__.SieveDesignTest)
+Assert pipes are closed.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a3_design_tests.py", line 44, in setUp
+    self.assertTrue(any("fork" in line for line in self.trace_obj.lines)) # checks fork is called at least once
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_correct_fork_structure (__main__.SieveDesignTest)
+Test that the forking structure (pipeline, repeating) is followed.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a3_design_tests.py", line 44, in setUp
+    self.assertTrue(any("fork" in line for line in self.trace_obj.lines)) # checks fork is called at least once
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_data_transfered_by_pipe (__main__.SieveDesignTest)
+Test that all processes except the last call pipe at least once.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a3_design_tests.py", line 44, in setUp
+    self.assertTrue(any("fork" in line for line in self.trace_obj.lines)) # checks fork is called at least once
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_first_process_exit_status (__main__.SieveDesignTest)
+Test that the first process exits with status 0.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a3_design_tests.py", line 44, in setUp
+    self.assertTrue(any("fork" in line for line in self.trace_obj.lines)) # checks fork is called at least once
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_fork_return_values (__main__.SieveDesignTest)
+Check that fork calls returns 0 in every process except the very first one.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a3_design_tests.py", line 44, in setUp
+    self.assertTrue(any("fork" in line for line in self.trace_obj.lines)) # checks fork is called at least once
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_num_filters_matches_num_processes (__main__.SieveDesignTest)
+Test that the reported number of filters matches the number of processes found.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a3_design_tests.py", line 44, in setUp
+    self.assertTrue(any("fork" in line for line in self.trace_obj.lines)) # checks fork is called at least once
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_other_processes_exit_status (__main__.SieveDesignTest)
+Test that each process exits with a higher exit status than its child (except first process).
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a3_design_tests.py", line 44, in setUp
+    self.assertTrue(any("fork" in line for line in self.trace_obj.lines)) # checks fork is called at least once
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_read_in_each_process (__main__.SieveDesignTest)
+Test that read is called by each process except the first.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a3_design_tests.py", line 44, in setUp
+    self.assertTrue(any("fork" in line for line in self.trace_obj.lines)) # checks fork is called at least once
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_write_in_each_process (__main__.SieveDesignTest)
+Test that write is called by each process except the last.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a3_design_tests.py", line 44, in setUp
+    self.assertTrue(any("fork" in line for line in self.trace_obj.lines)) # checks fork is called at least once
+AssertionError: False is not true
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.004s
+
+FAILED (failures=9, errors=1)

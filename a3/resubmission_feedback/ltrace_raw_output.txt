@@ -1,0 +1,709 @@
+18950 __libc_start_main(0x4009a6, 2, 0x7ffcd8261b98, 0x401090 <unfinished ...>
+18950   signal(SIGPIPE, 0x1)                     = 0
+18950   strtol(0x7ffcd8262d78, 0, 10, 0)         = 221
+18950   pipe(0x7ffcd8261aa0)                     = 0
+18950   fork()                                   = 18951
+18950   close(3 <unfinished ...>
+18951   <... fork resumed> )                     = 0
+18950   <... close resumed> )                    = 0
+18950   write(4, "\002", 4 <unfinished ...>
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\003", 4 <unfinished ...>
+18951   <... read resumed> , "\002", 4)          = 4
+18950   <... write resumed> )                    = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   write(4, "\004", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 2
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\005", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 2
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\006", 4 <unfinished ...>
+18951   <... read resumed> , "\003", 4)          = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260) = 3
+18950   <... write resumed> )                    = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   write(4, "\a", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 3
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\b", 4 <unfinished ...>
+18951   <... read resumed> , "\004", 4)          = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18951   <... sqrt resumed> )                     = 4
+18950   write(4, "\t", 4 <unfinished ...>
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260) = 4
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\n", 4 <unfinished ...>
+18951   <... read resumed> , "\005", 4)          = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\v", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 5
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260) = 5
+18950   <... write resumed> )                    = 4
+18951   read(3 <unfinished ...>
+18950   write(4, "\f", 4 <unfinished ...>
+18951   <... read resumed> , "\006", 4)          = 4
+18950   <... write resumed> )                    = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   write(4, "\r", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 6
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18951   <... sqrt resumed> )                     = 6
+18950   write(4, "\016", 4 <unfinished ...>
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18951   <... read resumed> , "\a", 4)            = 4
+18950   write(4, "\017", 4 <unfinished ...>
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260) = 7
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\020", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 7
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\021", 4 <unfinished ...>
+18951   <... read resumed> , "\b", 4)            = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260) = 8
+18950   <... write resumed> )                    = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   write(4, "\022", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 8
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\023", 4 <unfinished ...>
+18951   <... read resumed> , "\t", 4)            = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18951   <... sqrt resumed> )                     = 9
+18950   write(4, "\024", 4 <unfinished ...>
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260) = 9
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\025", 4 <unfinished ...>
+18951   <... read resumed> , "\n", 4)            = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\026", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 10
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260) = 10
+18950   <... write resumed> )                    = 4
+18951   read(3 <unfinished ...>
+18950   write(4, "\027", 4 <unfinished ...>
+18951   <... read resumed> , "\v", 4)            = 4
+18950   <... write resumed> )                    = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   write(4, "\030", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 11
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18951   <... sqrt resumed> )                     = 11
+18950   write(4, "\031", 4 <unfinished ...>
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18951   <... read resumed> , "\f", 4)            = 4
+18950   write(4, "\032", 4 <unfinished ...>
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260) = 12
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\033", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 12
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\034", 4 <unfinished ...>
+18951   <... read resumed> , "\r", 4)            = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260) = 13
+18950   <... write resumed> )                    = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   write(4, "\035", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 13
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "\036", 4 <unfinished ...>
+18951   <... read resumed> , "\016", 4)          = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18951   <... sqrt resumed> )                     = 14
+18950   write(4, "\037", 4 <unfinished ...>
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260) = 14
+18951   read(3 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, " ", 4 <unfinished ...>
+18951   <... read resumed> , "\017", 4)          = 4
+18951   sqrt(3, 0x7ffcd8261a80, 4, 0x7f3948d77260 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "!", 4 <unfinished ...>
+18951   <... sqrt resumed> )                     = 15
+18951   printf("%d %d %d\n", 221, 13, 17 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, """, 4)                         = 4
+18950   write(4, "#", 4)                         = 4
+18951   <... printf resumed> )                   = 10
+18950   write(4, "$", 4 <unfinished ...>
+18951   printf("Number of filters = %d\n", 8)    = 22
+18951   exit(0 <unfinished ...>
+18950   <... write resumed> )                    = 4
+18950   write(4, "%", 4)                         = 4
+18950   write(4, "&", 4 <no return ...>
+18951 +++ exited (status 0) +++
+18950 --- SIGCHLD (Child exited) ---
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "'", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "(", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, ")", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "*", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "+", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, ",", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "-", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, ".", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "/", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "0", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "1", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "2", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "3", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "4", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "5", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "6", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "7", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "8", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "9", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, ":", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, ";", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "<", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "=", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, ">", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "?", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "@", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "A", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "B", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "C", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "D", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "E", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "F", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "G", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "H", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "I", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "J", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "K", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "L", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "M", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "N", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "O", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "P", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "Q", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "R", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "S", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "T", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "U", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "V", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "W", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "X", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "Y", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "Z", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "[", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\\", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "]", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "^", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "_", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "`", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "a", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "b", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "c", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "d", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "e", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "f", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "g", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "h", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "i", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "j", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "k", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "l", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "m", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "n", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "o", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "p", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "q", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "r", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "s", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "t", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "u", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "v", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "w", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "x", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "y", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "z", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "{", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "|", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "}", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "~", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\177", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\200", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\201", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\202", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\203", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\204", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\205", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\206", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\207", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\210", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\211", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\212", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\213", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\214", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\215", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\216", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\217", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\220", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\221", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\222", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\223", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\224", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\225", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\226", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\227", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\230", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\231", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\232", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\233", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\234", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\235", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\236", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\237", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\240", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\241", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\242", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\243", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\244", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\245", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\246", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\247", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\250", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\251", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\252", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\253", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\254", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\255", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\256", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\257", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\260", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\261", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\262", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\263", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\264", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\265", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\266", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\267", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\270", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\271", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\272", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\273", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\274", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\275", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\276", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\277", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\300", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\301", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\302", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\303", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\304", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\305", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\306", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\307", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\310", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\311", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\312", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\313", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\314", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\315", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\316", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\317", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\320", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\321", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\322", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\323", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\324", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\325", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\326", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\327", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\330", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\331", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\332", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\333", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\334", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   write(4, "\335", 4 <no return ...>
+18950 --- SIGPIPE (Broken pipe) ---
+18950   <... write resumed> )                    = -1
+18950   close(4)                                 = 0
+18950 +++ exited (status 0) +++

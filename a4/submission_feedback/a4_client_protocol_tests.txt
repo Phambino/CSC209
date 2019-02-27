@@ -1,0 +1,32 @@
+FFF
+======================================================================
+FAIL: test_client_prints_server (__main__.TestClient)
+Once connected, the client prints messages from the server whenever they arrive -- even before the first command is received from the user.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "client_protocol_test.py", line 46, in test_client_prints_server
+    self.assertIn('[SERVER]:', stdoutput)
+AssertionError: '[SERVER]:' not found in ''
+
+======================================================================
+FAIL: test_partial_response (__main__.TestClient)
+Client should not print partial server responses.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "client_protocol_test.py", line 38, in test_partial_response
+    self.assertIn("Howdy", stdoutput)
+AssertionError: 'Howdy' not found in ''
+
+======================================================================
+FAIL: test_server_exit (__main__.TestClient)
+Client should exit with status code 1 when server socket is closed.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "client_protocol_test.py", line 29, in test_server_exit
+    self.assertEqual(1, status)
+AssertionError: 1 != 0
+
+----------------------------------------------------------------------
+Ran 3 tests in 2.022s
+
+FAILED (failures=3)

@@ -1,0 +1,14 @@
+.....E...
+======================================================================
+ERROR: test_num_filters_matches_num_processes (__main__.SieveDesignTest)
+Test that the reported number of filters matches the number of processes found.
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "a3_design_tests.py", line 68, in test_num_filters_matches_num_processes
+    [self._get_claimed_num_filters() + 1, self._get_claimed_num_filters() + 2])
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.032s
+
+FAILED (errors=1)
